@@ -17,23 +17,15 @@
     "plugin:import/typescript"
   ],
   "root": true,
-  "settings":{
-    "import/resolver":{
+  "settings": {
+    "import/resolver": {
       "typescript": true,
       "node": true
-
     }
-
   },
-  "plugins": [
-    "@typescript-eslint",
-    "prettier",
-    "simple-import-sort"
-  ],
+  "plugins": ["@typescript-eslint", "prettier", "simple-import-sort"],
   "rules": {
-    "prettier/prettier": [
-      "error"
-    ],
+    "prettier/prettier": ["error"],
     "no-unused-vars": [
       "warn",
       {
